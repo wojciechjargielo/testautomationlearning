@@ -1,4 +1,4 @@
-# My first automated test to check login and logout on site tester.codersguru.pl
+# My first automated test to check logging in and out on site tester.codersguru.pl
 # I used time.sleep for better visualisation
 from selenium import webdriver
 from selenium.webdriver.common.by import By
