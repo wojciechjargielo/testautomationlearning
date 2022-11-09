@@ -17,8 +17,8 @@ time.sleep(1)
 driver.find_element(By.ID, "_submit").click()
 time.sleep(2)
 
-#going to account settings page directly trough the link
-#becouse of diffrent paths of navigation on site with diffrent resolutions
+#going to account settings page directly trough the link becouse of diffrent paths of navigation on site with diffrent resolutions
+#on this site the logout button has a class name "button", this is a practice website not designed by me
 driver.get("https://tester.codersguru.pl/settings")
 time.sleep(2)
 driver.find_element(By.CLASS_NAME,"button").click()
